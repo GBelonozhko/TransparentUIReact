@@ -1,0 +1,41 @@
+body {
+  background-color: #21d4fd;
+  background-image: linear-gradient(
+    270deg,
+    #21d4fd 0%,
+    #b721ff 26%,
+    #900b8f 76%,
+    #ff1b54 100%
+  );
+}
+
+.transparentDark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumboTransparent{
+  opacity: .95;
+  background-image: url(https://www.bsr.org/images/heroes/tech-against-trafficking-hero.jpg);
+  background-size: cover;
+  
+}
+
+.cardTransparentYellow{
+  background-color: rgba(2, 0, 8, 0.336);
+  width: 25rem;
+  height: 18rem;
+  border-radius: 0% 30% 30% 0%;
+  border-style: none  outset  outset none;
+  border-color: rgba(3, 191, 248, .6);
+  border-width: 10px;
+  z-index: 2;
+  
+  
+}
+
+.imageCirc{
+width: 10rem;
+height: 10rem;
+}
+
+
