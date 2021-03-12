@@ -8,10 +8,14 @@ import {
   FormControl,
   Button,
   NavbarBrand,
-  Jumbotron,Row,Col
+  Jumbotron,
+  Row,
+  Col,
+  Badge,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
+import { Container } from "react-bootstrap";
 function App() {
   return (
     <>
@@ -38,25 +42,52 @@ function App() {
         </p>
       </Jumbotron>
 
-      <div className="cardTransparentYellow shadow">
-        <h3 className="text-white ml-2">Hello Good Bye World</h3>
-        <Row>
-          <Col>
+      <div className="cardTransparent mb-2">
+        <Row className="justify-content-center">
+          <h3 className="text-white">Who make Titles Anymore</h3>
+          <Col xs="5" md="5">
             <Image
-              className="imageCirc ml-2"
+              className="imageCirc imageBorder shadow"
               src="https://img.freepik.com/free-photo/tech-devices-icons-connected-digital-planet-earth_117023-449.jpg?size=626&ext=jpg"
               roundedCircle
             />
           </Col>
-          <Col>
-            <p className='text-white'>
-              loren ipsemLorem ips dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              elit, sed do eiusmod
-            </p>
+
+          <Col xs="5" md="5">
+            <Image
+              className="imageCirc imageBorder shadow"
+              src="https://img.freepik.com/free-photo/tech-devices-icons-connected-digital-planet-earth_117023-449.jpg?size=626&ext=jpg"
+              roundedCircle
+            />
           </Col>
         </Row>
-        <Button variant="outline-info ml-3">Learn More</Button>
+      </div>
+      <div className="">
+        <div className="cardTransparentYellow shadow">
+          <h3 className="text-white ml-2">Hello Good Bye World</h3>
+          <Row>
+            <Col>
+              <Image
+                className="imageCirc ml-2"
+                src="https://img.freepik.com/free-photo/tech-devices-icons-connected-digital-planet-earth_117023-449.jpg?size=626&ext=jpg"
+                roundedCircle
+              />
+            </Col>
+            <Col>
+              <p className="text-white">
+                loren ipsemLorem ips dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                elit, sed do eiusmod
+              </p>
+            </Col>
+          </Row>
+          <Button variant="outline-info ml-5">Learn More</Button>
+          <div className='cardDesign'>
+            <h6 className='cardHeaderText'>hello</h6>
+
+          </div>
+        </div>
+
       </div>
     </>
   );
